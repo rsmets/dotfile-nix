@@ -176,6 +176,24 @@
       "terraform-docs" # Terraform documentation
       "tflint" # Terraform linter
       "warrensbox/tap/tfswitch" # Terraform version manager
+
+      # Version Managers and Package Tools
+      "mise" # Polyglot dev tool version manager (asdf alternative)
+      "nvm" # Node.js version manager
+      "pnpm" # Fast, disk space efficient npm alternative
+
+      # Git Enhancement
+      "git-delta" # Better git diff viewer with syntax highlighting
+
+      # Visualization and Presentation
+      "graphviz" # Graph visualization (dot, neato, etc.)
+      "slides" # Terminal-based presentation tool
+
+      # File Sync
+      "unison" # Bidirectional file synchronization
+
+      # Shell Prompt (alternative to starship)
+      "oh-my-posh" # Cross-shell prompt theme engine
     ];
 
     # GUI Applications (Casks)
@@ -218,15 +236,33 @@
       "bitwarden" # Password manager
       "brave-browser" # Privacy-focused browser
       "google-chrome" # Google Chrome browser
-      # "chatgpt" # ChatGPT AI desktop app
+      "arc" # Arc browser - modern chromium-based browser
+      "firefox" # Firefox browser
+      "chatgpt" # ChatGPT AI desktop app
       "claude" # Claude AI desktop app
+      "goose" # AI coding assistant
       "lm-studio" # Local language model runner
       "insync" # Google Drive client
       "obsidian" # Knowledge base and note-taking
       "quotio" # AI subscription & quota tracker
+      "spark" # Modern email client
+      "macwhisper" # Audio transcription using OpenAI Whisper
 
       "spotify" # Music streaming
       "whatsapp" # Messaging
+      "zoom" # Video conferencing
+
+      # Menu Bar and System Utilities
+      "bartender" # Menu bar icon manager
+      "stats" # System monitor in menu bar
+
+      # Password Management
+      "keepassxc" # Cross-platform password manager
+
+      # Development Tools - Database and Debugging
+      "dbeaver-community" # Universal database tool
+      "charles" # HTTP proxy and debugging tool
+      "sourcetree" # Git GUI client
 
       # Media
       "vlc" # Media player
