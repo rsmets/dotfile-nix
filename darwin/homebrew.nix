@@ -204,9 +204,15 @@
 
       # Terminal and System Tools
       "alacritty" # GPU-accelerated terminal
+      "ghostty" # Fast, native terminal emulator
       "karabiner-elements" # Keyboard customization
       "rectangle" # Window management
       "the-unarchiver" # Archive extraction
+
+      # Productivity Tools
+      "alfred" # Spotlight replacement and productivity app
+      "kiro" # Kiro AI IDE
+      "kiro-cli" # Kiro CLI for terminal-based AI assistance
 
       # Productivity and Communication
       "bitwarden" # Password manager
