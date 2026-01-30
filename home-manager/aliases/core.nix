@@ -24,8 +24,14 @@ in {
   x = "exit";                     # Exit shell
   h = "history";                  # Show command history
   r = "source ~/.zshrc";          # Reload zsh config
+  szp = "source ~/.zshrc";        # Reload zsh config (legacy alias)
   rl = "exec zsh";                # Full shell reload (new process)
   q = "exit";                     # Quick exit
+
+  # ==========================================================================
+  # Quick Navigation
+  # ==========================================================================
+  dev = "cd ~/dev";               # Jump to dev directory
 
   # ==========================================================================
   # Navigation

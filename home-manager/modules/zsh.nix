@@ -157,6 +157,19 @@
           git remote show origin | grep 'HEAD' | cut -d':' -f2 | sed -e 's/^ *//g' -e 's/ *$//g'
         }
 
+        # Reset current branch - checkout default branch, pull, and delete the previous branch
+        function greset() {
+          local defaultBranch=$(git_main_branch)
+          local currentBranch=$(git rev-parse --abbrev-ref HEAD)
+
+          if [[ $currentBranch != $defaultBranch ]]; then
+            git checkout "$defaultBranch" && git pull && git branch -D "$currentBranch"
+          fi
+        }
+
+        # AWS Profile Switcher
+        alias awsp="source _awsp"
+
         function ghpr() { gh pr list --state "$1" --limit 1000 | fzf; }
         function ghprall() { gh pr list --state all --limit 1000 | fzf; }
         function ghpropen() { gh pr list --state open --limit 1000 | fzf; }
