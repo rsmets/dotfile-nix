@@ -109,11 +109,14 @@ if [ "$INSTALL_BREWS" = true ]; then
         "fd"
         "mas"
         "zoxide"
+        "tree"
+        "stow"
         
         # Python Development
         "uv"
         "poetry"
         "python@3.12"
+        "python@3.13"
         
         # Development Tools
         "cmake"
@@ -128,6 +131,7 @@ if [ "$INSTALL_BREWS" = true ]; then
         "go"
         "node"
         "shellcheck"
+        "rust-analyzer"
         
         # Text Processing
         "bat"
@@ -209,9 +213,7 @@ if [ "$INSTALL_CASKS" = true ]; then
         "antigravity"
         "claude-code"
         "docker-desktop"
-        "jetbrains-toolbox"
         "postman"
-        "visual-studio-code"
         
         # Terminal and System
         "alacritty"
@@ -219,6 +221,7 @@ if [ "$INSTALL_CASKS" = true ]; then
         "karabiner-elements"
         "rectangle"
         "the-unarchiver"
+        "displaylink"
         
         # Productivity
         "alfred"
