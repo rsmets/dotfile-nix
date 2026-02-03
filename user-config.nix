@@ -3,7 +3,7 @@
   fullName = "Ray Smets";
   email = "rayjsmets@gmail.com";
   githubUsername = "rsmets";
-  hostname = "rsmets-mbp";
+  hostname = "5ce91eba25b8";
   signingKey = ""; # Will be set up later if needed
 
   
